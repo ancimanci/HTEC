@@ -29,7 +29,7 @@ public class PeoplePage extends pages.PageBase {
 
     public void openUser(String user) {
 
-        waitForVisible (driver, 5, PeopleCreate);
+        waitForVisible(driver, 5, PeopleCreate);
         List<WebElement> elements = findElements(driver, users);
 
 

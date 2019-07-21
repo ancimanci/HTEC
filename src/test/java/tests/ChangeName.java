@@ -37,7 +37,8 @@ public class ChangeName extends TestBase {
     public void editPeople(String name, String Surname, String seniority, String technologies) throws InterruptedException {
         String user = name + " " + Surname;
         String user1 = Surname + " " + name;
-
+        playgroundPage = new PlaygroundPage (driver);
+        playgroundPage.openPeople();
         peoplePage = new PeoplePage(driver);
         peoplePage.openUser(user);
         editUserPage = new EditUserPage(driver);
