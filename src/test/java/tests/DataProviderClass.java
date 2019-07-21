@@ -4,7 +4,7 @@ import org.testng.annotations.DataProvider;
 public class DataProviderClass {
     @DataProvider(name = "data-provider")
     public static Object[][] dataProviderMethod() {
-        Object[][] data = new Object[2][4];
+        Object[][] data = new Object[3][4];
         data[0][0] = "Andjelka";
         data[0][1] = "Brkic";
         data[0][2] = "Intermediate";
