@@ -46,16 +46,5 @@ public class CreateUser extends TestBase {
 
     }
 
-    @Test(dataProvider = "data-provider", dataProviderClass = DataProviderClass.class)
-    public void editPeople(String name, String Surname, String seniority, String technologies) throws InterruptedException {
-        String user = name + " " + Surname;
-        String user1 = Surname + " " + name;
-
-        peoplePage = new PeoplePage(driver);
-        peoplePage.openUser(user);
-        editUserPage = new EditUserPage(driver);
-        editUserPage.changeName(user1);
-
-    }
 
 }
