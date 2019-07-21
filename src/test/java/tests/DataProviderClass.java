@@ -13,6 +13,10 @@ public class DataProviderClass {
         data[1][1] = "Doe";
         data[1][2] = "Senior";
         data[1][3] = "Java, C#, Git";
+        data[2][0] = "Jonh";
+        data[2][1] = "";
+        data[2][2] = "Junior";
+        data[2][3] = "";
 
         return data;
     }
