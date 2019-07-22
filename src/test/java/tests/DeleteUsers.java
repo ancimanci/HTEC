@@ -21,7 +21,13 @@ public class DeleteUsers extends TestBase{
         homePage = new HomePage(driver);
         homePage.open();
         homePage.login();
+        projectPage = new ProjectPage (driver);
 
+        projectPage.openProject ();
+
+        playgroundPage = new PlaygroundPage (driver);
+
+        playgroundPage.openPeople ();
 
 
     }
